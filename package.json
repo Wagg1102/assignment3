@@ -1,0 +1,44 @@
+{
+  "name": "product",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+<<<<<<< HEAD
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "echarts": "^5.5.1",
+    "element-plus": "^2.8.5",
+    "firebase": "^10.14.1",
+    "less": "^4.2.0",
+    "vue": "^3.5.10",
+    "vue-router": "^4.4.5"
+=======
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@primevue/themes": "^4.0.4",
+    "axios": "^1.7.7",
+    "bootstrap": "^5.3.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "firebase": "^10.13.1",
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^6.0.1",
+    "primevue": "^4.0.4",
+    "vue": "^3.4.29",
+    "vue-router": "^4.4.3"
+>>>>>>> 6ebdbcf0593d693b8597d4852604749c3d6e559f
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "vite": "^5.4.8"
+  }
+}
